@@ -1,4 +1,5 @@
 # [8planets.app](https://8planets.app)
+![Jekyll site CI](https://github.com/pixyzehn/8planets.app/workflows/jekyll%20build/badge.svg)
 
 ## Requirements
 
