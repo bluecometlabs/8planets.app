@@ -16,11 +16,6 @@ sass:
 strict_front_matter: true
 
 plugins:
-- jekyll-avatar
-- jekyll-feed
-- jekyll-gist
-- jekyll-mentions
-- jekyll-paginate
 - jekyll-seo-tag
 - jekyll-sitemap
 - jemoji
