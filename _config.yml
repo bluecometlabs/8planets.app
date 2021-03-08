@@ -1,0 +1,36 @@
+title: 8Planets
+author: Hiroki Nagasawa
+username: pixyzehn
+description: Just another jekyll website
+keywords: 8Planets, Solar System viewer, Solar System simulator, planets, universe
+url: https://8planets.app
+timezone: Asia/Tokyo
+
+links:
+  github: https://github.com/pixyzehn
+  twitter: https://twitter.com/8planetsapp
+  jekyll: https://jekyllrb.com
+
+sass:
+  style: compressed
+strict_front_matter: true
+
+plugins:
+- jekyll-avatar
+- jekyll-feed
+- jekyll-gist
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-sitemap
+- jemoji
+
+# https://jekyllrb.com/docs/configuration/default/
+exclude:
+- .github
+- .gitignore
+- .jekyll-cache
+- .sass-cache
+- CNAME
+- LICENSE
+- README.md
