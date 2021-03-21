@@ -1,6 +1,6 @@
 title: 8Planets
-author: Hiroki Nagasawa
-username: pixyzehn
+author: pixyzehn
+author_fullname: Hiroki Nagasawa
 description: A simple viewer for planetary orbits in the Solar System.
 keywords: 8Planets,Solar System Viewer,Solar System Simulator,Planetary Orbits,Widgets
 url: https://8planets.app
@@ -14,6 +14,10 @@ links:
 sass:
   style: compressed
 strict_front_matter: true
+
+twitter:
+  username: 8planetsapp
+  card: summary_large_image
 
 plugins:
 - jekyll-seo-tag
