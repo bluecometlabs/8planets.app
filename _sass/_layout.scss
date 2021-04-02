@@ -34,11 +34,11 @@
 
   .nav-link {
     font-size: 14px;
-    color: $secondary-content-color !important;
+    color: $secondary-text-color !important;
     line-height: $base-line-height;
 
     &:hover {
-      color: $secondary-content-color !important;
+      color: $secondary-text-color !important;
       text-decoration: underline;
     }
   }
@@ -97,7 +97,7 @@ hr {
  */
 .apps-main {
   p, ul {
-    color: $secondary-content-color;
+    color: $secondary-text-color;
     b {
       color: $primary-content-color;
     }
@@ -111,6 +111,6 @@ hr {
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit;
   p, ul {
-    color: $secondary-content-color;
+    color: $secondary-text-color;
   }
 }
