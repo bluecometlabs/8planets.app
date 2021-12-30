@@ -8,21 +8,19 @@
 ## Installation
 
 ```bash
-$ git clone https://github.com/pixyzehn/8planets.app.git
-$ cd 8planets.app/
-$ bundle install
+bundle install
 ```
 
 ## Build
 
 ```bash
-$ bundle exec jekyll build
+bundle exec jekyll build
 ```
 
 ## Preview
 
 ```bash
-$ bundle exec jekyll serve
+bundle exec jekyll serve
 ```
 
 ## License
