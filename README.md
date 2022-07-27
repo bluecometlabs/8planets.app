@@ -2,6 +2,8 @@
 
 [![jekyll build](https://github.com/pixyzehn/8planets.app/actions/workflows/build.yml/badge.svg)](https://github.com/pixyzehn/8planets.app/actions/workflows/build.yml)
 
+[Releases](https://github.com/pixyzehn/8planets.app/releases) are published only when the press kit needs to be updated as the download URL refers to the latest release.
+
 ## Requirements
 
 - [Bundler](https://bundler.io)
