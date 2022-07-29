@@ -26,14 +26,13 @@
 }
 
 .navbar {
-  font-weight: 600;
-
   .nav-link {
     color: $text-color !important;
     line-height: $base-line-height;
 
     &:hover {
       color: $text-color !important;
+      opacity: 0.5;
       text-decoration: none;
     }
   }
