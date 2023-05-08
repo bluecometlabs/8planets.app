@@ -13,7 +13,7 @@ image: /assets/8planets.png
     <a style="text-decoration:none" href="{{ site.links.app_store }}" target="_blank">
         <img src="../assets/app-store-badge.svg">
     </a>
-    <a style="text-decoration:none" href="{{ site.links.mac_app_store }}" target="_blank">
+    <a style="text-decoration:none" href="{{ site.links.app_store }}" target="_blank">
         <img src="../assets/mac-app-store-badge.svg">
     </a>
     <p>
