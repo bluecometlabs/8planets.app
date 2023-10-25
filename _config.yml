@@ -7,7 +7,7 @@ timezone: Asia/Tokyo
 links:
   app_store: https://apps.apple.com/app/id1554639445
   app_store_review: https://apps.apple.com/app/id1554639445/?action=write-review
-  twitter: https://twitter.com/8planetsapp
+  twitter: https://twitter.com/BlueCometLabs
   company: https://bluecometlabs.com
   jekyll: https://jekyllrb.com
 
@@ -16,7 +16,7 @@ sass:
 strict_front_matter: true
 
 twitter:
-  username: 8planetsapp
+  username: BlueCometLabs
   card: summary_large_image
 
 plugins:

@@ -49,7 +49,4 @@ image: /assets/8planets.png
             <p>Apple Watch Complications, Overview of the planets, Option to show Pluto, Sharing your favorite moment of the Solar System, URL Scheme, and more.</p>
         </div>
     </div>
-    <p>
-        <a href="https://twitter.com/8planetsapp?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @8planetsapp</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </p>
 </div>
