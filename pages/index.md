@@ -16,10 +16,6 @@ image: /assets/8planets.png
     <a style="text-decoration:none" href="{{ site.links.app_store }}" target="_blank">
         <img src="../assets/mac-app-store-badge.svg">
     </a>
-    <p>
-        <a href="https://www.producthunt.com/posts/8planets?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-8planets" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=289076&theme=dark" alt="8Planets - A simple viewer for planetary orbits in our Solar System | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-    </p>
-    <p><i>💡 You can try 8Planets for free if you visit this site from your iOS device and tap “VIEW” from the top banner.</i></p>
 </div>
 
 <div class="text-center">
