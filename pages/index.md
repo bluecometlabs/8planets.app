@@ -7,8 +7,8 @@ image: /assets/8planets.png
 
 <div class="text-center">
     <img alt="8Planets" src="../assets/8planets.png" width="100%">
-    <h1>8Planets</h1>
-    <p><b>8Planets</b> is a simple viewer and simulator for planetary orbits in our Solar System. It helps you discover <b>how the planets aligned and move around over time</b>. The apps are available on Mac, iPhone, iPad, and Apple Watch.</p>
+    <h2>Simulate planetary orbits</h2>
+    <p>8Planets is a simple viewer and simulator for planetary orbits in our Solar System. It helps you discover how the planets aligned and move around over time. The apps are available on Mac, iPhone, iPad, and Apple Watch.</p>
     
     <a style="text-decoration:none" href="{{ site.links.app_store }}" target="_blank">
         <img src="../assets/app-store-badge.svg">

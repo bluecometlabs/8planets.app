@@ -7,6 +7,7 @@ timezone: Asia/Tokyo
 links:
   app_store: https://apps.apple.com/app/id1554639445
   twitter: https://twitter.com/BlueCometLabs
+  mastodon: https://mastodon.social/@bluecometlabs
   company: https://bluecometlabs.com
 
 sass:

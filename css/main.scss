@@ -28,9 +28,7 @@ $on-laptop: 860px;
   }
 }
 
-/**
- * Reset some basic elements
- */
+// Reset some basic elements
 body,
 h1,
 h2,
@@ -50,9 +48,7 @@ figure {
   padding: 0;
 }
 
-/**
- * Basic styling
- */
+// Basic styling
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
@@ -65,9 +61,7 @@ body {
   font-kerning: normal;
 }
 
-/**
- * Set `margin-top` and `margin-bottom` to maintain vertical rhythm
- */
+// Set `margin-top` and `margin-bottom` to maintain vertical rhythm
 h1,
 h2,
 h3,
@@ -86,17 +80,13 @@ figure,
   margin-bottom: calc(#{$spacing-unit} / 2);
 }
 
-/**
- * Images
- */
+// Images
 img {
   max-width: 100%;
   vertical-align: middle;
 }
 
-/**
- * Figures
- */
+// Figures
 figure > img {
   display: block;
 }
@@ -105,9 +95,7 @@ figcaption {
   font-size: $small-font-size;
 }
 
-/**
- * Lists
- */
+// Lists
 ul,
 ol {
   margin-left: $spacing-unit;
@@ -120,9 +108,7 @@ li {
   }
 }
 
-/**
- * Links
- */
+// Links
 a {
   color: $primary-content-color;
 
@@ -133,9 +119,7 @@ a {
   }
 }
 
-/**
- * Blockquotes
- */
+// Blockquotes
 blockquote {
   color: #828282;
   border-left: 2px solid;
@@ -148,9 +132,7 @@ blockquote {
   }
 }
 
-/**
- * Code formatting
- */
+// Code formatting
 pre,
 code {
   font-family: monospace;
@@ -177,9 +159,7 @@ pre {
   }
 }
 
-/**
- * Wrapper
- */
+// Wrapper
 .wrapper {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -197,9 +177,7 @@ pre {
   }
 }
 
-/**
- * Clearfix
- */
+// Clearfix
 %clearfix {
   &:after {
     content: "";
@@ -208,60 +186,37 @@ pre {
   }
 }
 
-/**
- * Nav header
- */
+// Nav bar
 .nav-header {
-  // Positioning context for the mobile navigation icon
-  position: relative;
-  background: $background-color;
-  padding: 15px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .navbar-brand {
-  letter-spacing: 4px;
-  margin-bottom: 0;
-  float: left;
-  color: $text-color;
-
-  &,
-  &:visited,
-  &:active {
-    color: $text-color;
-  }
-
-  &:hover {
-    text-decoration: none;
-  }
+  color: var(--text-color) !important;
 }
 
-.navbar {
-  .nav-link {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
-    color: $text-color !important;
-    line-height: $base-line-height;
-
-    &:hover {
-      color: $text-color !important;
-      opacity: 0.5;
-      text-decoration: none;
-    }
-  }
-
-  .navbar-toggler {
-    padding: 0.2rem;
-    font-size: 1rem;
-  }
+.navbar-brand, h1 {
+  margin-left: 4px;
 }
 
-/**
- * Site footer
- */
+.navbar-brand:hover,
+.navbar-brand:focus {
+  background-color: transparent !important;
+  color: inherit !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+// Site footer
 .site-footer {
   background: $background-color;
   a {
     color: $secondary-text-color !important;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline; // or any other style you prefer
+    }
   }
   ul,
   ol {
@@ -277,34 +232,14 @@ pre {
   }
 }
 
-/**
- * Horizontal Rule
- */
+// Horizontal Rule
 hr {
   border-top: 1px solid $border-color;
   margin-top: calc(#{$spacing-unit} / 2);
   margin-bottom: calc(#{$spacing-unit} / 2);
 }
 
-/**
- * Navbar toggler
- */
-.navbar-toggler,
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-.navbar .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(142,142,147, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-/**
- * Apps color
- */
+// Apps color
 p,
 ul {
   color: $secondary-text-color;
