@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-# Contact
+## Contact
 
 Any feedback and suggestions are welcome. We will try to read every tweet and email.
 
